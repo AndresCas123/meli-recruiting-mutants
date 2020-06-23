@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  recruiting-mutants:
+    image: recruiting-mutants:latest
+    ports:
+      - "9090:8080"

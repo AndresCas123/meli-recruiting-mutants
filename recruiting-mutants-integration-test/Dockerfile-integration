@@ -1,0 +1,5 @@
+FROM openjdk:11.0.4-jre-slim
+
+COPY recruiting-mutants-1.0-SNAPSHOT.jar /app.jar
+
+ENTRYPOINT ["java","-jar","/app.jar"]
