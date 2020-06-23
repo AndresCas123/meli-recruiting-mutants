@@ -20,7 +20,7 @@ You can send request to the following url: http://ec2-user@ec2-100-26-255-192.co
 Mutant Service allows you save dna mutants
 
 
-URL: http://localhost:8080/mutant
+URL: http://ec2-user@ec2-100-26-255-192.compute-1.amazonaws.com:8080/mutant
 
 Headers: Content-Type:application/json
 
@@ -41,5 +41,12 @@ Body example:
 ## Stats Service
 Stats service allows you get information about mutant and human saved
 
+URL: http://ec2-user@ec2-100-26-255-192.compute-1.amazonaws.com:8080/stats
+Body response:
 
+    {
+        "ratio": 0,
+        "count_mutant_dna": 1,
+        "count_human_dna": 0
+    }
 
